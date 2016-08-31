@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建表单</title>
+    <!--<link href="../plugin/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>-->
+    <link href="../plugin/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../plugin/My97DatePicker/skin/WdatePicker.css" rel="stylesheet"/>
+    <link href="../theme/style.css" rel="stylesheet"/>
+    <link href="../theme/colpick.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div>
+    <div class="sjmf-edit-form">
+        <div class="sjmf-form-step">
+            <p class="formBuilder-title"><span><em class="step-num">1</em></span>选择模板</p>
+            <p class="formBuilder-line"></p>
+            <p class="formBuilder-title active"><span><em class="step-num ">2</em></span>设计表单</p>
+            <p class="formBuilder-line"></p>
+            <p class="formBuilder-title"><span><em class="step-num active">3</em></span>生成表单</p>
+        </div>
+    </div>
+    <div class="form-interim">
+        <div class="sjmf-btn-yl">
+            <a class="btn btn-default scbd-btn-edit" href="editForm.html">编辑表单</a>
+            <a class="btn btn-default scbd-btn-view">预览表单</a>
+            <a class="btn btn-default scbd-btn-form" href="index.html">返回列表</a>
+        </div>
+    </div>
+    <div class="formBuilder-step3-content">
+        <div class="formRelease-item">
+            <p class="formBuilder-step3-title">网页式表单</p>
+            <div class="shareForm-icon">
+                <span>分享到：</span>szx
+            </div>
+            <a class="btn btn-green shareFormSetting btn-sm">微信分享设置</a>
+            <p class="formBuilder-step3-tip">你可以将下面的地址分享给好友，或者通过邮件的方式发送出去。</p>
+            <input class="form-control formBuilder-step3-input" value="http://sjmf.form.com"/>
+            <a class="btn btn-primary btn_step3_copyURL btn-sm">复制URL地址</a>
+            <a class="btn btn-primary btn_step3_view btn-sm">新窗口预览</a>
+            <p class="sjmf-bd-ewm">
+                <img src="" >
+            </p>
+        </div>
+        <div class="formRelease-item">
+            <p class="formBuilder-step3-title">嵌入式表单</p>
+            <p class="formBuilder-step3-tip">将下面的代码加入到网页HTML代码中，让用户在浏览你的网站时填写表单。</p>
+            <textarea class="formBuilder-step3-textarea">
+                <iframe height="600" allowTransparency="true" style="width:100%;border:none;overflow:auto;" frameborder="0" src="http://form.mikecrm.com/YLOtK2"></iframe>
+            </textarea>
+            <a class="btn btn-primary shareFormSetting btn-sm">复制代码</a>
+            <div class="formViewExample-embed" style="top: 45px;"></div>
+        </div>
+        <div class="formRelease-item">
+            <p class="formBuilder-step3-title">悬浮式表单</p>
+            <p class="formBuilder-step3-tip">将下面的代码加入到网页HTML代码中，让用户在点击按钮时查看表单</p>
+            <textarea class="formBuilder-step3-textarea">
+            <a href="http://form.mikecrm.com/YLOtK2" style="position:fixed;z-index:999;right:-5px;bottom: 20px;display: inline-block;width: 20px;border-radius: 5px;color:white;font-size:14px;line-height:17px;background: #2476CE;box-shadow: 0 0 5px #666;word-wrap: break-word;padding: 10px 6px;border: 2px solid white;">查看表单</a>
+            </textarea>
+            <a class="btn btn-primary shareFormSetting btn-sm">复制代码</a>
+            <div class="formViewExample-embed" style="top: 45px;"></div>
+        </div>
+        <div class="formRelease-item">
+            <p class="formBuilder-step3-title">打印表单</p>
+            <p class="formBuilder-step3-tip" style="display: inline-block">将表单打印成纸质文件进行填写。</p>
+            <a class="btn btn-primary btn-sm">打印</a>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/style.js"></script>
+<script src="../js/colpick.js"></script>
+<script src="../plugin/My97DatePicker/WdatePicker.js"></script>
+<script src="../plugin/My97DatePicker/lang/zh-cn.js"></script>
+<script src="../plugin/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
